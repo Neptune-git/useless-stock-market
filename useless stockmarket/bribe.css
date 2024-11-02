@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px; /* Maximum width for content */
+    margin: 50px auto; /* Centering the container */
+    padding: 20px;
+    background-color: white; /* White background for content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.main-heading {
+    font-size: 32px; /* Larger heading size */
+    text-align: center; /* Center the heading */
+    color: #c0392b; /* Red color for emphasis */
+}
+
+.sub-heading {
+    font-size: 20px; /* Slightly smaller than main heading */
+    text-align: center; /* Center the sub-heading */
+    margin-top: 20px; /* Space above sub-heading */
+}
+
+.penalty-list {
+    margin-top: 30px; /* Space above the list */
+    padding-left: 20px; /* Indent the list */
+    font-size: 18px; /* Font size for list items */
+}
+
+.penalty-list li {
+    margin-bottom: 15px; /* Space between list items */
+}

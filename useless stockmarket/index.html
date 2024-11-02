@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useless Stock Market</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="fund-balance" id="fund-balance">Fund: $1</div>
+        <h1 class="header-title">Useless Stock Market</h1>
+        <nav class="menu-box">
+            <a href="index.html">Stocks</a>
+            <a href="bribe.html">Bribe</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main class="stock-container">
+        <div class="stock-box">
+            <a href="stock1.html" class="stock-link" onclick="buyStock('Company A')">
+                <div class="stock-name">Pineapple</div>
+                <div class="stock-price" id="stock1-price">$100</div>
+            </a>
+        </div>
+        <div class="stock-box">
+            <a href="stock2.html" class="stock-link" onclick="buyStock('Company B')">
+                <div class="stock-name">gulugulu</div>
+                <div class="stock-price" id="stock2-price">$100</div>
+            </a>
+        </div>
+        <div class="stock-box">
+            <a href="stock3.html" class="stock-link" onclick="buyStock('Company C')">
+                <div class="stock-name">xvidea</div>
+                <div class="stock-price" id="stock3-price">$100</div>
+            </a>
+        </div>
+        <div class="stock-box">
+            <a href="stock4.html" class="stock-link" onclick="buyStock('Company D')">
+                <div class="stock-name">macrohard</div>
+                <div class="stock-price" id="stock4-price">$100</div>
+            </a>
+        </div>
+        <div class="stock-box">
+            <a href="stock5.html" class="stock-link" onclick="buyStock('Company E')">
+                <div class="stock-name">tinkerhub</div>
+                <div class="stock-price" id="stock5-price">$100</div>
+            </a>
+        </div>
+    </main>
+
+    <section class="portfolio">
+        <h2>Your Portfolio</h2>
+        <div id="portfolio-container">
+            <!-- Portfolio items will be dynamically added here -->
+        </div>
+    </section>
+
+    <footer>
+        <button id="reset-button">Reset</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

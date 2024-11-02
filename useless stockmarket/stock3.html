@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xvidea Stock</title>
+    <link rel="stylesheet" href="styless.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Include Chart.js -->
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Xvidea Stock</h1>
+        <nav class="menu-box">
+            <a href="index.html">Stocks</a>
+            <a href="bribe.html">Bribe</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main class="stock-page">
+        <canvas id="stockGraph" width="600" height="400"></canvas> <!-- Graph area -->
+        
+        <div class="stock-actions">
+            
+            <a href="insstock.html"><button id="sell-button">Sell</button></a> 
+            <a href="insfund.html"><button id="buy-button" >Buy</button></a>
+            
+        </div>
+    </main>
+
+    <footer>
+        <button id="reset-button">Reset</button>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your main script -->
+    <script src="graph.js"></script> <!-- Link to the graphing script -->
+</body>
+</html>

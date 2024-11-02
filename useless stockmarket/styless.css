@@ -1,0 +1,48 @@
+body {
+    background-color: black; /* Change body color to black */
+    color: white; /* Set default text color to white */
+    font-family: Arial, sans-serif; /* Use a clean font */
+}
+
+.header-title {
+    text-align: center;
+}
+
+.menu-box {
+    text-align: center;
+    background-color: gold; /* Menu background color */
+    padding: 10px;
+}
+
+.stock-page {
+    text-align: center;
+}
+
+.stock-actions {
+    margin-top: 20px;
+}
+
+canvas {
+    border: 1px solid green; /* Optional: border for the canvas */
+}
+
+/* Other styles remain the same */
+
+
+#buy-button {
+    background-color: green;
+    border-radius: 10%;
+    width: 90px;
+    height: 50px;
+    font-size: 30px;
+}
+
+
+
+#sell-button {
+    background-color: red;
+    border-radius: 10%;
+    width: 90px;
+    height: 50px;
+    font-size: 30px;
+}

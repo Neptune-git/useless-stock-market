@@ -1,0 +1,41 @@
+body {
+    background-color: #282c34; /* Dark background for contrast */
+    color: #ffffff; /* White text color */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px; /* Maximum width for content */
+    margin: 50px auto; /* Centering the container */
+    padding: 20px;
+    background-color: #3c4043; /* Darker background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.header {
+    text-align: center; /* Center the header */
+    font-size: 36px; /* Large font size */
+    margin-bottom: 20px; /* Space below header */
+}
+
+.description {
+    font-size: 20px; /* Medium font size */
+    line-height: 1.5; /* Increase line height for readability */
+    margin-bottom: 40px; /* Space below description */
+    text-align: center; /* Center the text */
+}
+
+.highlight {
+    color: #c0392b; /* Red color for emphasis */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.welcome {
+    text-align: center; /* Center the welcome message */
+    font-size: 28px; /* Slightly smaller than header */
+    margin-top: 30px; /* Space above welcome message */
+    text-transform: uppercase; /* Uppercase letters */
+}
